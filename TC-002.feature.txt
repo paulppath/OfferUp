@@ -1,0 +1,10 @@
+Feature: Shop and Sorting Price
+
+Scenario: Select Men's shoes and add price range to ensure the itmes are displayed within the price range
+
+Given user navigates to url "https://offerup.com/"
+Then user clicks on "Clothing, Shoes, & Accessorie" tab and verifies it's clickable
+Then user selects "Men's shoes" in the dropdown menu
+Then user enter $200 as MAX price in the Price range menu on the right 
+Then user clicks on the "GO" button 
+Then the user verifies the all the items are shown withing the price range selected 
