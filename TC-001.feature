@@ -17,3 +17,5 @@ Then user verifies that "Commercial vehicles" exist in the dropdown box
 Then user verifies that "Tires & Rims" exist in the dropdown box
 Then user verifies that "Auto parts & Accessories" exist in the dropdown box
 Then user verifies that "Other - vehicles" exist in the dropdown box
+
+a little changes
