@@ -1,0 +1,7 @@
+
+Feature: Shop and Verifying New condition feature is displayed
+
+Scenario: Select Condition New to ensure the New items are shown
+Given user navigates to url "https://offerup.com/"
+Then user selects "General" option in the dropdown menu
+Then user selects "New" in the condition menu and verifies "New" is displayed
